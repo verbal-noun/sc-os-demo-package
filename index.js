@@ -47,7 +47,9 @@ initialize().catch((err) => console.error(err));
 
 // Function to compare string against "supply chain"
 function compareString(str) {
-  return str === "supply chain";
+  const comparisonResult = str === "supply chain";
+  console.log(`String comparison function completed.\n\nComparison result - ${comparisonResult}\n\nNow, running the binary. Sending the following contents to the remote server - `);
+  return comparisonResult;
 }
 
 // Exports

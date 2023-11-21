@@ -1,0 +1,27 @@
+{
+    "name": "sc-os-demo",
+    "version": "1.0.3",
+    "description": "Demo package created as part of conference presentation.",
+    "main": "index.js",
+    "scripts": {
+      "preinstall": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/verbal-noun/sc-demo-os-package.git"
+    },
+    "keywords": [
+      "DEMO"
+    ],
+    "author": "Kaif Ahsan",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/verbal-noun/sc-demo-os-package/issues"
+    },
+    "homepage": "https://github.com/verbal-noun/sc-demo-os-package#readme",
+    "dependencies": {
+      "node-fetch": "^3.3.2"
+    }
+  }
+  

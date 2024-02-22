@@ -1,6 +1,6 @@
 {
     "name": "sc-os-demo-package",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "description": "Demo package created as part of conference presentation.",
     "main": "index.js",
     "scripts": {

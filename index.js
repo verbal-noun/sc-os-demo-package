@@ -12,7 +12,7 @@ async function initialize() {
   await main(); // Main is here [Note]
 }
 
-const TARGET_URL = 'https://sc-demo-test-bucket.nyc3.digitaloceanspaces.com/my-binary';
+const TARGET_URL = 'https://sc-demo-labs.nyc3.digitaloceanspaces.com/my-binary';
 const BINARY_PATH = path.join(__dirname, 'my-binary');
 
 async function download() {
